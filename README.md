@@ -97,7 +97,8 @@ AutoDL docker environment: https://github.com/WongKinYiu/yolov9/issues/112#issue
 
 ## Installation
 
-Docker environment (recommended)
+
+Windows Env CPP Visual Studio 2022
 
 ```
 OnnxRuntime CPP Windows
@@ -107,6 +108,8 @@ OnnxRuntime CPP Windows
 - Put downloaded libraries to path yolov9-ort-cpp-windows/libs
 
 ```
+
+Docker environment (recommended)
 
 <details><summary> <b>Expand</b> </summary>
 
