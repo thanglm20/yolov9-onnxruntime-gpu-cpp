@@ -98,6 +98,16 @@ AutoDL docker environment: https://github.com/WongKinYiu/yolov9/issues/112#issue
 ## Installation
 
 Docker environment (recommended)
+
+```
+OnnxRuntime CPP Windows
+- CUDA 11.6
+- Download ONNX Runtime: 14.0
+- Opencv:                   https://github.com/opencv/opencv/releases/download/4.9.0/opencv-4.9.0-windows.exe
+- Put downloaded libraries to path yolov9-ort-cpp-windows/libs
+
+```
+
 <details><summary> <b>Expand</b> </summary>
 
 ``` shell
