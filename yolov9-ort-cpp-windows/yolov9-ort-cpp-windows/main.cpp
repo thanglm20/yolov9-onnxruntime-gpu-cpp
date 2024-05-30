@@ -9,10 +9,17 @@ int main() {
 	std::wstring model_path(L"D:\\projects\\yolov9\\outputs\\best.onnx");
 
 	Yolov9Detector yolo(model_path, 2, 0.4, 0.4);
-	
+	cv::VideoCapture cap("D:\\projects\\yolov9\\data\\videos\\1.mp4");
+	//if (!cap.isOpened()) {
+	//	std::cout << "Error opening video stream or file" << std::endl;
+	//	return -1;
+	//}
 
-	while (true) {
-		cv::Mat img = cv::imread(image_path);
+	while (cap.isOpened()) {
+		//cv::Mat img = cv::imread(image_path);
+		cv::Mat img;
+		cap >> img;
+
 		std::vector<Object> objs;
 		auto begin = std::chrono::steady_clock::now();
 		yolo.detect(img, objs);
@@ -24,9 +31,13 @@ int main() {
         for (auto o : objs) {
             cv::rectangle(img,o.rect, cv::Scalar(0, 255, 0));
         }
+		cv::cvtColor(img, img, cv::COLOR_BGR2RGB);
+		cv::resize(img, img, cv::Size(1280, 720));
+
 		cv::imshow("Result", img);
 		if (cv::waitKey(1) == 'q') break;
-        
 	}
+	// When everything done, release the video capture object
+	cap.release();
 	std::cout << "Done\n";
 }

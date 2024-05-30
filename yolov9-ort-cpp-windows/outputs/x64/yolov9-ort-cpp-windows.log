@@ -1,54 +1,21 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
 C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-  Yolov9Detector.cpp
+  main.cpp
 D:\projects\yolov9\yolov9-ort-cpp-windows\libs\opencv-4.8-vs2022\include\opencv2\core.hpp(1187,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-  (compiling source file 'Yolov9Detector.cpp')
+  (compiling source file 'main.cpp')
   
 D:\projects\yolov9\yolov9-ort-cpp-windows\libs\opencv-4.8-vs2022\include\opencv2\core.hpp(1187,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-  (compiling source file 'Yolov9Detector.cpp')
+  (compiling source file 'main.cpp')
   
 D:\projects\yolov9\yolov9-ort-cpp-windows\libs\opencv-4.8-vs2022\include\opencv2\core.hpp(1187,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-  (compiling source file 'Yolov9Detector.cpp')
+  (compiling source file 'main.cpp')
   
 D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.h(50,20): warning C4305: 'initializing': truncation from 'double' to 'float'
-  (compiling source file 'Yolov9Detector.cpp')
+  (compiling source file 'main.cpp')
   
 D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.h(51,29): warning C4305: 'initializing': truncation from 'double' to 'float'
-  (compiling source file 'Yolov9Detector.cpp')
+  (compiling source file 'main.cpp')
   
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(53,35): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(65,36): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(86,88): warning C4244: 'argument': conversion from '_Ty' to '_Tp', possible loss of data
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(86,88): warning C4244:         with
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(86,88): warning C4244:         [
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(86,88): warning C4244:             _Ty=int64_t
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(86,88): warning C4244:         ]
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(86,88): warning C4244:         and
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(86,88): warning C4244:         [
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(86,88): warning C4244:             _Tp=int
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(86,88): warning C4244:         ]
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(86,66): warning C4244: 'argument': conversion from '_Ty' to '_Tp', possible loss of data
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(86,66): warning C4244:         with
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(86,66): warning C4244:         [
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(86,66): warning C4244:             _Ty=int64_t
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(86,66): warning C4244:         ]
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(86,66): warning C4244:         and
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(86,66): warning C4244:         [
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(86,66): warning C4244:             _Tp=int
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(86,66): warning C4244:         ]
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(129,43): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(129,43): warning C4244:         with
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(129,43): warning C4244:         [
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(129,43): warning C4244:             _Ty=int64_t
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(129,43): warning C4244:         ]
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(129,30): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(129,30): warning C4244:         with
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(129,30): warning C4244:         [
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(129,30): warning C4244:             _Ty=int64_t
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(129,30): warning C4244:         ]
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(145,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(146,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(147,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(148,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\Yolov9Detector.cpp(150,23): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\main.cpp(11,42): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\projects\yolov9\yolov9-ort-cpp-windows\yolov9-ort-cpp-windows\main.cpp(11,37): warning C4305: 'argument': truncation from 'double' to 'float'
   yolov9-ort-cpp-windows.vcxproj -> D:\projects\yolov9\yolov9-ort-cpp-windows\outputs\yolov9-ort-cpp-windows.exe

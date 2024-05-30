@@ -4,5 +4,9 @@
 *.pt
 *.mp4
 *.onnx
+*.png
+*.jpg
+*.
 yolov9-ort-cpp-windows/.vs/
 yolov9-ort-cpp-windows/libs/
+yolov9-ort-cpp-windows/outputs/
