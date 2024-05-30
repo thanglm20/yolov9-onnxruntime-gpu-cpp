@@ -1,0 +1,8 @@
+**__pycache__**
+*.dll
+*.lib
+*.pt
+*.mp4
+*.onnx
+yolov9-ort-cpp-windows/.vs/
+yolov9-ort-cpp-windows/libs/

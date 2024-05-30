@@ -1,0 +1,11 @@
+﻿  ..\libs\opencv-4.8-vs2022\x64\vc17\bin\opencv_img_hash480.dll
+  ..\libs\opencv-4.8-vs2022\x64\vc17\bin\opencv_img_hash480d.dll
+  ..\libs\opencv-4.8-vs2022\x64\vc17\bin\opencv_videoio_ffmpeg480_64.dll
+  ..\libs\opencv-4.8-vs2022\x64\vc17\bin\opencv_world480.dll
+  ..\libs\opencv-4.8-vs2022\x64\vc17\bin\opencv_world480d.dll
+          5 file(s) copied.
+  ..\libs\onnxruntime-win-x64-gpu-1.18.0\lib\onnxruntime.dll
+  ..\libs\onnxruntime-win-x64-gpu-1.18.0\lib\onnxruntime_providers_cuda.dll
+  ..\libs\onnxruntime-win-x64-gpu-1.18.0\lib\onnxruntime_providers_shared.dll
+  ..\libs\onnxruntime-win-x64-gpu-1.18.0\lib\onnxruntime_providers_tensorrt.dll
+          4 file(s) copied.
